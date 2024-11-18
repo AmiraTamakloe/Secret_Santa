@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450095462CEA73F400E9CCB3 /* Secret_SantaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450095452CEA73F400E9CCB3 /* Secret_SantaApp.swift */; };
+		450095482CEA73F400E9CCB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450095472CEA73F400E9CCB3 /* ContentView.swift */; };
+		4500954A2CEA73F500E9CCB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450095492CEA73F500E9CCB3 /* Assets.xcassets */; };
+		4500954D2CEA73F500E9CCB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4500954C2CEA73F500E9CCB3 /* Preview Assets.xcassets */; };
+		450095572CEA73F500E9CCB3 /* Secret_SantaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450095562CEA73F500E9CCB3 /* Secret_SantaTests.swift */; };
+		450095612CEA73F500E9CCB3 /* Secret_SantaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450095602CEA73F500E9CCB3 /* Secret_SantaUITests.swift */; };
+		450095632CEA73F500E9CCB3 /* Secret_SantaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450095622CEA73F500E9CCB3 /* Secret_SantaUITestsLaunchTests.swift */; };
+		450095702CEAAB7F00E9CCB3 /* ParticipantManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4500956F2CEAAB7F00E9CCB3 /* ParticipantManager.swift */; };
+		450095742CEAAF1E00E9CCB3 /* SecretSantaGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450095732CEAAF1D00E9CCB3 /* SecretSantaGenerator.swift */; };
+		450095762CEABADF00E9CCB3 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450095752CEABADF00E9CCB3 /* MailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		450095532CEA73F500E9CCB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4500953A2CEA73F400E9CCB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 450095412CEA73F400E9CCB3;
+			remoteInfo = "Secret Santa";
+		};
+		4500955D2CEA73F500E9CCB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4500953A2CEA73F400E9CCB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 450095412CEA73F400E9CCB3;
+			remoteInfo = "Secret Santa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		450095422CEA73F400E9CCB3 /* Secret Santa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Secret Santa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		450095452CEA73F400E9CCB3 /* Secret_SantaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret_SantaApp.swift; sourceTree = "<group>"; };
+		450095472CEA73F400E9CCB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		450095492CEA73F500E9CCB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4500954C2CEA73F500E9CCB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		450095522CEA73F500E9CCB3 /* Secret SantaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Secret SantaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		450095562CEA73F500E9CCB3 /* Secret_SantaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret_SantaTests.swift; sourceTree = "<group>"; };
+		4500955C2CEA73F500E9CCB3 /* Secret SantaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Secret SantaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		450095602CEA73F500E9CCB3 /* Secret_SantaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret_SantaUITests.swift; sourceTree = "<group>"; };
+		450095622CEA73F500E9CCB3 /* Secret_SantaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret_SantaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4500956F2CEAAB7F00E9CCB3 /* ParticipantManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantManager.swift; sourceTree = "<group>"; };
+		450095732CEAAF1D00E9CCB3 /* SecretSantaGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSantaGenerator.swift; sourceTree = "<group>"; };
+		450095752CEABADF00E9CCB3 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4500953F2CEA73F400E9CCB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4500954F2CEA73F500E9CCB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450095592CEA73F500E9CCB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		450095392CEA73F400E9CCB3 = {
+			isa = PBXGroup;
+			children = (
+				450095442CEA73F400E9CCB3 /* Secret Santa */,
+				450095552CEA73F500E9CCB3 /* Secret SantaTests */,
+				4500955F2CEA73F500E9CCB3 /* Secret SantaUITests */,
+				450095432CEA73F400E9CCB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		450095432CEA73F400E9CCB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450095422CEA73F400E9CCB3 /* Secret Santa.app */,
+				450095522CEA73F500E9CCB3 /* Secret SantaTests.xctest */,
+				4500955C2CEA73F500E9CCB3 /* Secret SantaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		450095442CEA73F400E9CCB3 /* Secret Santa */ = {
+			isa = PBXGroup;
+			children = (
+				450095452CEA73F400E9CCB3 /* Secret_SantaApp.swift */,
+				450095472CEA73F400E9CCB3 /* ContentView.swift */,
+				450095752CEABADF00E9CCB3 /* MailView.swift */,
+				450095732CEAAF1D00E9CCB3 /* SecretSantaGenerator.swift */,
+				4500956F2CEAAB7F00E9CCB3 /* ParticipantManager.swift */,
+				450095492CEA73F500E9CCB3 /* Assets.xcassets */,
+				4500954B2CEA73F500E9CCB3 /* Preview Content */,
+			);
+			path = "Secret Santa";
+			sourceTree = "<group>";
+		};
+		4500954B2CEA73F500E9CCB3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4500954C2CEA73F500E9CCB3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		450095552CEA73F500E9CCB3 /* Secret SantaTests */ = {
+			isa = PBXGroup;
+			children = (
+				450095562CEA73F500E9CCB3 /* Secret_SantaTests.swift */,
+			);
+			path = "Secret SantaTests";
+			sourceTree = "<group>";
+		};
+		4500955F2CEA73F500E9CCB3 /* Secret SantaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				450095602CEA73F500E9CCB3 /* Secret_SantaUITests.swift */,
+				450095622CEA73F500E9CCB3 /* Secret_SantaUITestsLaunchTests.swift */,
+			);
+			path = "Secret SantaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		450095412CEA73F400E9CCB3 /* Secret Santa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450095662CEA73F500E9CCB3 /* Build configuration list for PBXNativeTarget "Secret Santa" */;
+			buildPhases = (
+				4500953E2CEA73F400E9CCB3 /* Sources */,
+				4500953F2CEA73F400E9CCB3 /* Frameworks */,
+				450095402CEA73F400E9CCB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Secret Santa";
+			productName = "Secret Santa";
+			productReference = 450095422CEA73F400E9CCB3 /* Secret Santa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		450095512CEA73F500E9CCB3 /* Secret SantaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450095692CEA73F500E9CCB3 /* Build configuration list for PBXNativeTarget "Secret SantaTests" */;
+			buildPhases = (
+				4500954E2CEA73F500E9CCB3 /* Sources */,
+				4500954F2CEA73F500E9CCB3 /* Frameworks */,
+				450095502CEA73F500E9CCB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				450095542CEA73F500E9CCB3 /* PBXTargetDependency */,
+			);
+			name = "Secret SantaTests";
+			productName = "Secret SantaTests";
+			productReference = 450095522CEA73F500E9CCB3 /* Secret SantaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4500955B2CEA73F500E9CCB3 /* Secret SantaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4500956C2CEA73F500E9CCB3 /* Build configuration list for PBXNativeTarget "Secret SantaUITests" */;
+			buildPhases = (
+				450095582CEA73F500E9CCB3 /* Sources */,
+				450095592CEA73F500E9CCB3 /* Frameworks */,
+				4500955A2CEA73F500E9CCB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4500955E2CEA73F500E9CCB3 /* PBXTargetDependency */,
+			);
+			name = "Secret SantaUITests";
+			productName = "Secret SantaUITests";
+			productReference = 4500955C2CEA73F500E9CCB3 /* Secret SantaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4500953A2CEA73F400E9CCB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					450095412CEA73F400E9CCB3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					450095512CEA73F500E9CCB3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 450095412CEA73F400E9CCB3;
+					};
+					4500955B2CEA73F500E9CCB3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 450095412CEA73F400E9CCB3;
+					};
+				};
+			};
+			buildConfigurationList = 4500953D2CEA73F400E9CCB3 /* Build configuration list for PBXProject "Secret Santa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 450095392CEA73F400E9CCB3;
+			productRefGroup = 450095432CEA73F400E9CCB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				450095412CEA73F400E9CCB3 /* Secret Santa */,
+				450095512CEA73F500E9CCB3 /* Secret SantaTests */,
+				4500955B2CEA73F500E9CCB3 /* Secret SantaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		450095402CEA73F400E9CCB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4500954D2CEA73F500E9CCB3 /* Preview Assets.xcassets in Resources */,
+				4500954A2CEA73F500E9CCB3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450095502CEA73F500E9CCB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4500955A2CEA73F500E9CCB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4500953E2CEA73F400E9CCB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450095702CEAAB7F00E9CCB3 /* ParticipantManager.swift in Sources */,
+				450095762CEABADF00E9CCB3 /* MailView.swift in Sources */,
+				450095482CEA73F400E9CCB3 /* ContentView.swift in Sources */,
+				450095742CEAAF1E00E9CCB3 /* SecretSantaGenerator.swift in Sources */,
+				450095462CEA73F400E9CCB3 /* Secret_SantaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4500954E2CEA73F500E9CCB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450095572CEA73F500E9CCB3 /* Secret_SantaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450095582CEA73F500E9CCB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450095632CEA73F500E9CCB3 /* Secret_SantaUITestsLaunchTests.swift in Sources */,
+				450095612CEA73F500E9CCB3 /* Secret_SantaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		450095542CEA73F500E9CCB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 450095412CEA73F400E9CCB3 /* Secret Santa */;
+			targetProxy = 450095532CEA73F500E9CCB3 /* PBXContainerItemProxy */;
+		};
+		4500955E2CEA73F500E9CCB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 450095412CEA73F400E9CCB3 /* Secret Santa */;
+			targetProxy = 4500955D2CEA73F500E9CCB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		450095642CEA73F500E9CCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		450095652CEA73F500E9CCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		450095672CEA73F500E9CCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Secret Santa/Preview Content\"";
+				DEVELOPMENT_TEAM = XH7F76PJ4D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amira.Secret-Santa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		450095682CEA73F500E9CCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Secret Santa/Preview Content\"";
+				DEVELOPMENT_TEAM = XH7F76PJ4D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amira.Secret-Santa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4500956A2CEA73F500E9CCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XH7F76PJ4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amira.Secret-SantaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Secret Santa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Secret Santa";
+			};
+			name = Debug;
+		};
+		4500956B2CEA73F500E9CCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XH7F76PJ4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amira.Secret-SantaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Secret Santa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Secret Santa";
+			};
+			name = Release;
+		};
+		4500956D2CEA73F500E9CCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XH7F76PJ4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amira.Secret-SantaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Secret Santa";
+			};
+			name = Debug;
+		};
+		4500956E2CEA73F500E9CCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XH7F76PJ4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amira.Secret-SantaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Secret Santa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4500953D2CEA73F400E9CCB3 /* Build configuration list for PBXProject "Secret Santa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450095642CEA73F500E9CCB3 /* Debug */,
+				450095652CEA73F500E9CCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450095662CEA73F500E9CCB3 /* Build configuration list for PBXNativeTarget "Secret Santa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450095672CEA73F500E9CCB3 /* Debug */,
+				450095682CEA73F500E9CCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450095692CEA73F500E9CCB3 /* Build configuration list for PBXNativeTarget "Secret SantaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4500956A2CEA73F500E9CCB3 /* Debug */,
+				4500956B2CEA73F500E9CCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4500956C2CEA73F500E9CCB3 /* Build configuration list for PBXNativeTarget "Secret SantaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4500956D2CEA73F500E9CCB3 /* Debug */,
+				4500956E2CEA73F500E9CCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4500953A2CEA73F400E9CCB3 /* Project object */;
+}
